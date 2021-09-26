@@ -30,6 +30,7 @@ function App() {
           onClick={handleClick}
         >
           I am THAT button
+        </button>
       </div>
       <h3>{domWriting}</h3>
     </div>
