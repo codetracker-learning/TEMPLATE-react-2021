@@ -23,6 +23,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app"
