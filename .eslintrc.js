@@ -3,10 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'prettier',
-    'airbnb',
-  ],
+  extends: ['prettier', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -17,10 +14,10 @@ module.exports = {
   plugins: ['prettier', 'jest'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-one-expression-per-line': [0],
     'no-console': [1, { allow: ['error', 'warn'] }],
     'comma-dangle': ['error'],
     'no-debugger': 1,
-    'class-methods-use-this': 0,
     'linebreak-style': 0,
     'max-len': [1, 600, 2],
     'no-plusplus': [2, { allowForLoopAfterthoughts: true }],

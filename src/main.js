@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './App.scss';
 
-function App() {
+function Initialize() {
   const [domWriting, setDomWriting] = useState('Nothing Here!');
 
   const handleClick = (e) => {
@@ -37,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Initialize;
