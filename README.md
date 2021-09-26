@@ -1,5 +1,7 @@
 # React Template
-[See Live Demo of this Template](https://webpack-5-template.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/339c4ae9-fc7f-41b4-9b49-2dab0a20eaba/deploy-status)](https://app.netlify.com/sites/react-template-21/deploys)
+
+[See Live Demo of this Template](https://react-template-21.netlify.app/)
 
 This template includes all the dependencies and set up needed for you to work within defined code standards and structure to get you up and running quickly.
 
