@@ -24,7 +24,7 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "*.{js,jsx,scss}": [
+    "*.{js,jsx}": [
       "prettier --write",
       "eslint --fix"
     ]
