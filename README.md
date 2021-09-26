@@ -9,9 +9,7 @@ This template includes all the dependencies and set up needed for you to work wi
 - [Get Started](#get-started)
 - [Starting the Project](#starting-the-project)
 - [Other important tidbits](#other-important-tidbits)
-    - [Console messages](#console-messages)
-    - [Including images with webpack](#including-images-with-webpack)
-    - [Importing CSS](#importing-cssscss)
+    - [React Dev Tools](#react-dev-tools)
     - [Using axios](#using-axios)
     - [Deploying on Netlify](#deploying-on-netlify)
 ___
@@ -42,11 +40,8 @@ ___
 - You will no longer be using the `hs -o` command. To start your server, you will run `npm start`
 
 ## Other Important Tidbits
-### Console messages
-From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw an error in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however for messages. These need to all be removed before pushing to production unless they contain vital info for the user/developer.
-
-![not acceptable](./documentation/notacceptable.png)
-
+### React Dev Tools
+From this time forward, you will be expected to have a clean console in order for your assignments to be approved. Use [React Developer Tools Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) to help with debugging.
 ### Including Images with React
 If you have a folder of local images that you want to load into your code things get a little strange with webpack.  Remember the only way webpack knows about assets is if they are imported into your javascript files.  Even our CSS is not added until those files are imported into our javascript files.  Below is some sample code for how to load a local image file into your project
 
