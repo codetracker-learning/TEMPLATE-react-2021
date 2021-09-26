@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './App.scss';
 
 function App() {
+  const [domWriting, setDomWriting] = useState('Nothing Here!');
+
+  const handleClick = (e) => {
+    console.warn(`You clicked ${e.target.id}`);
+    setDomWriting(`You clicked ${e.target.id}! Check the Console!`);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <h2>INSIDE APP COMPONENT</h2>
+      <div>
+        <button
+          type="button"
+          id="this-button"
+          className="btn btn-info"
+          onClick={handleClick}
         >
-          Learn React
-        </a>
-      </header>
+          I am THIS button
+        </button>
+      </div>
+      <div>
+        <button
+          type="button"
+          id="that-button"
+          className="btn btn-primary mt-3"
+          onClick={handleClick}
+        >
+          I am THAT button
+        </button>
+      </div>
+      <h3>{domWriting}</h3>
     </div>
   );
 }
