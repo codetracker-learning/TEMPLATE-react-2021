@@ -38,7 +38,6 @@ ___
 
 **NOTES:** 
 - Changes you make to the project will make the browser reload on save...no more hard refresh unless something goes wrong.
-- You will no longer be using the `hs -o` command. To start your server, you will run `npm start`
 
 ## Other Important Tidbits
 ### React Dev Tools
